@@ -1,0 +1,4 @@
+rootProject.name = 'ferreteria'
+
+include 'ferreteria-EJB' , 'ferreteria-WEB', 'ferreteria-EAR'
+

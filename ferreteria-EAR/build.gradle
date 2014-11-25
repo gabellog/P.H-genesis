@@ -1,0 +1,13 @@
+apply plugin: 'ear'
+apply plugin: 'java'
+
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    deploy project(path: ':ferreteria-WEB', configuration: 'archives')
+}
+
