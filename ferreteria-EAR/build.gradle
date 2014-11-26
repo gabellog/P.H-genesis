@@ -1,5 +1,4 @@
 apply plugin: 'ear'
-apply plugin: 'java'
 
 version = '0.1'
 
