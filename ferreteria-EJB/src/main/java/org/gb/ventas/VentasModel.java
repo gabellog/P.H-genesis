@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * Created by gustavo on 26/11/14.
  */
 @Stateful
-@StatefulTimeout(value = 60,unit = TimeUnit.SECONDS)
+@StatefulTimeout(value = 120,unit = TimeUnit.SECONDS)
 public class VentasModel implements Serializable{
 
     private int numeroDeLlamados = 0;
