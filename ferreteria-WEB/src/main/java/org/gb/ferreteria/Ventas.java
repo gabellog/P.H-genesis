@@ -73,5 +73,14 @@ public class Ventas implements Serializable {
     }
 
 
+    @GET
+    @Path("/crearmensaje")
+    @Produces("text/html")
+    public String crearMensaje(){
+        administradorVentas.crearMensaje();
+        return "Creando mensaje";
+    }
+
+
 
 }
